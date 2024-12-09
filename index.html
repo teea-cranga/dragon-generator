@@ -11,6 +11,8 @@
         crossorigin="anonymous"></script>
     <title>Dragon generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/generator.js"></script>
 </head>
 
 <body>
@@ -22,62 +24,62 @@
 
     <div class="specifications row mx-auto mt-auto">
         <div class="row g-1">
-            <label for="statBody" class="col-sm-auto col-lg-2 col-form-label">Dragon type:</label>
+            <label for="statBody" class="col-sm-auto col-lg-3 col-form-label">Dragon type:</label>
             <div class="col-auto">
                 <input id="statBody" class="form-control" type="text" disabled readonly>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Generate!</button>
+                <button id="butType" type="submit" class="btn btn-primary mb-3">Generate!</button>
             </div>
         </div>
 
         <div class="row g-1">
-            <label for="statElem" class=" col-sm-auto col-lg-2 col-form-label">Element:</label>
+            <label for="statElem" class=" col-sm-auto col-lg-3 col-form-label">Element:</label>
             <div class="col-auto">
                 <input id="statElem" class="form-control" type="text" disabled readonly>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Generate!</button>
+                <button id="butElem" type="submit" class="btn btn-primary mb-3">Generate!</button>
             </div>
         </div>
 
         <div class="row g-1">
-            <label for="statWing" class="col-sm-auto col-lg-2 col-form-label">Wings:</label>
+            <label for="statWing" class="col-sm-auto col-lg-3 col-form-label">Wings:</label>
             <div class="col-auto">
                 <input id="statWing" class="form-control" type="text" disabled readonly>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Generate!</button>
+                <button id="butWings" type="submit" class="btn btn-primary mb-3">Generate!</button>
             </div>
         </div>
 
         <div class="row g-1">
-            <label for="statCol1" class="col-sm-auto col-lg-2 col-form-label">Primary color:</label>
+            <label for="statCol1" class="col-sm-auto col-lg-3 col-form-label">Primary color:</label>
             <div class="col-auto">
                 <input id="statCol1" class="form-control" type="text" disabled readonly>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Generate!</button>
+                <button id="butPrim" type="submit" class="btn btn-primary mb-3">Generate!</button>
             </div>
         </div>
         
         <div class="row g-1">
-            <label for="statCol2" class="col-sm-auto col-lg-2 col-form-label">Secondary color:</label>
+            <label for="statCol2" class="col-sm-auto col-lg-3 col-form-label">Secondary color:</label>
             <div class="col-auto">
                 <input id="statCol2" class="form-control" type="text" disabled readonly>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Generate!</button>
+                <button id="butSec" type="submit" class="btn btn-primary mb-3">Generate!</button>
             </div>
         </div>
 
         <div class="row g-1">
-            <label for="statCol3" class="col-sm-auto col-lg-2 col-form-label">Tertiary color:</label>
+            <label for="statCol3" class="col-sm-auto col-lg-3 col-form-label">Tertiary color:</label>
             <div class="col-auto">
                 <input id="statCol3" class="form-control" type="text" disabled readonly>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Generate!</button>
+                <button id="butTert" type="submit" class="btn btn-primary mb-3">Generate!</button>
             </div>
         </div>
     </div>
