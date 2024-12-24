@@ -1,5 +1,9 @@
 .specifications{
-    border: 1px black solid;
-    width: 30%;
-    height: 40%; 
+    border: 10px white solid;
+    width: 90%;
+}
+
+#div-generate-all{
+    display: flex;
+    align-content: center;
 }
